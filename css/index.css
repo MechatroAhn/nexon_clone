@@ -1,0 +1,306 @@
+@import "./reset.css";
+@import "./main.css";
+
+body {
+  font-family: "NanumGothic";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: rgb(248, 249, 251);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+header img {
+  width: 200px;
+  margin-left: 160px;
+  cursor: pointer;
+}
+.header__menu {
+  font-size: 17px;
+  margin-left: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header__menu:hover {
+  color: rgb(3, 118, 251);
+}
+.header__more {
+  width: 220px;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header__more i {
+  margin-right: 15px;
+}
+.header__more a:nth-child(5) {
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+  margin-right: 15px;
+}
+.header__more span {
+  position: absolute;
+  bottom: -10px;
+  font-size: 11px;
+  height: 15px;
+  padding: 3px 4px 0px 4px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  display: none;
+}
+
+.header__more span:nth-child(2) {
+  left: -25px;
+}
+.header__more span:nth-child(4) {
+  left: 27px;
+}
+.header__more a:nth-child(6) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.header__more a:nth-child(6):hover {
+  color: white;
+  background-color: rgb(3, 118, 251);
+  border: 2px solid rgb(3, 118, 251);
+}
+
+.header__more a:nth-child(5):hover {
+  color: rgb(3, 118, 251);
+}
+
+.header__menu__detail {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.571);
+  display: none;
+  z-index: 1;
+}
+.header__menu__detail__main {
+  position: absolute;
+  left: -400px;
+  height: 100%;
+  width: 550px;
+  background-color: white;
+  transition: 0.2s;
+}
+.header__menu__detail__main__X {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #dfe0e2;
+  border-bottom: 1px solid #dfe0e2;
+  padding: 0px;
+}
+.header__menu__detail__main__X i {
+  color: black;
+  font-size: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header__menu__detail__main__X i:hover {
+  color: rgb(3, 118, 251);
+}
+.header__menu__detail__main__games {
+  width: 100%;
+  height: 80%;
+}
+.header__menu__detail__main__games__btns {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header__menu__detail__main__games__btns div:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.header__menu__detail__main__games__btns div:nth-child(2) {
+  border: 2px solid gray;
+  padding: 8px 13px;
+  margin-right: 50px;
+  color: gray;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header__menu__detail__main__games__btns div:nth-child(2):hover {
+  background-color: gray;
+  color: white;
+}
+
+.header__menu__detail__main__games__container {
+  padding: 50px 50px 0px 50px;
+  display: flex;
+  height: 80%;
+}
+.header__menu__detail__main__games__items__L {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+.header__menu__detail__main__games__items__R {
+  width: 55%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.header__menu__detail__main__games__items__L h2,
+.header__menu__detail__main__games__items__R h2 {
+  font-weight: bolder;
+  font-size: 22px;
+}
+.header__menu__detail__main__games__items__L span,
+.header__menu__detail__main__games__items__R span {
+  cursor: pointer;
+}
+.header__menu__detail__main__games__items__L span:hover,
+.header__menu__detail__main__games__items__R span:hover {
+  color: rgb(3, 118, 251);
+}
+.header__menu__detail__main__games__more {
+  width: 100%;
+  height: 182px;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 70px;
+}
+.header__menu__detail__main__games__more__container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header__menu__detail__main__games__all {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+}
+.header__menu__detail__main__games__more__container {
+  width: 90%;
+  height: 70%;
+  color: white;
+  justify-items: left;
+  align-items: center;
+  margin-left: 60px;
+}
+.header__menu__detail__main__games__more__container div {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header__menu__detail__main__games__more__container div:hover {
+  color: rgb(3, 118, 251);
+}
+.header__menu__detail__main__games__more__container div i {
+  margin-right: 5px;
+}
+.header__menu__detail__main__games__all {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header__menu__detail__main__games__all:hover {
+  background-color: rgb(3, 118, 251);
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  transition: 1s;
+}
+.banner__btns {
+  width: 200px;
+  height: 10px;
+  margin: 0 auto;
+  margin-top: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner__btns div {
+  width: 32%;
+  border-radius: 3px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.banner__btns div:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.banner__btns div:nth-child(1) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner__btns__gauge {
+  display: block;
+  width: 100%;
+  background-color: rgb(3, 118, 251);
+  height: 100%;
+  position: absolute;
+  left: -64px;
+}
+
+.move {
+  animation: bannerGauge 5s linear;
+}
+
+@keyframes bannerGauge {
+  from {
+    left: -76px;
+  }
+  to {
+    left: 0px;
+  }
+}
