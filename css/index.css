@@ -257,6 +257,9 @@ header img {
   height: 500px;
   position: relative;
   transition: 1s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .banner__btns {
   width: 200px;
