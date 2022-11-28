@@ -168,6 +168,18 @@ main {
   background-color: #4a4e57;
   font-weight: bold;
 }
+.main__center__R__2 div:nth-child(2),
+.main__center__R__2 div:nth-child(1),
+.main__center__R__1 {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.main__center__R__2 div:nth-child(2):hover,
+.main__center__R__2 div:nth-child(1):hover,
+.main__center__R__1:hover {
+  background-color: rgb(3, 118, 251);
+  color: white;
+}
 
 .main__center__R__3 {
   width: 340px;
