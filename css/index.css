@@ -50,6 +50,11 @@ header img {
 }
 .header__more i {
   margin-right: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header__more i:hover {
+  color: rgb(3, 118, 251);
 }
 .header__more a:nth-child(5) {
   font-size: 14px;
@@ -175,7 +180,6 @@ header img {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  
 }
 .header__menu__detail__main__games__items__R {
   width: 55%;
