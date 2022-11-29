@@ -23,6 +23,7 @@ a {
 header {
   top: 0;
   width: 100%;
+  min-width: 850px;
   height: 62px;
   display: flex;
   justify-content: space-between;
@@ -267,6 +268,8 @@ header img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  min-width: 850px;
+
 }
 .banner__btns {
   width: 200px;
