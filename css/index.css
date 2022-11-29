@@ -1,5 +1,7 @@
 @import "./reset.css";
 @import "./main.css";
+@import "./article.css";
+@import "./footer.css";
 
 body {
   font-family: "NanumGothic";
@@ -10,6 +12,7 @@ body {
   height: 100%;
   color: black;
   background-color: rgb(248, 249, 251);
+  position: relative;
 }
 
 a {
