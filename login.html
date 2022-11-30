@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="icon" href="./images/nexon.png" />
+    <link
+      href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css"
+      rel="stylesheet"
+    />
+    <title>넥슨 회원로그인</title>
+  </head>
+  <body>
+    <div class="test2__message">넥슨 ID/비밀번호 기록이 남지 않는 일회용 로그인!</div>
+
+    <div class="login__container">
+      <div class="login__top">
+        <div class="login__top__imageContainer">
+          <img src="./images/nexon-removebg-preview.png" />
+        </div>
+        <div class="login__top__options">
+          <span>넥슨ID 로그인</span>
+          <span>일회용 로그인</span>
+          <span>QR 로그인</span>
+        </div>
+      </div>
+      <div id="test1">
+        <form>
+          <input placeholder="넥슨ID (아이디 또는 이메일)" />
+          <input placeholder="비밀번호" />
+          <div class="checkbox__container">
+            <input type="checkbox" />
+            <h2>로그인 상태 유지</h2>
+          </div>
+          <button>넥슨ID 로그인</button>
+        </form>
+        <div class="login__more">
+          <a herf="#none">회원가입</a>
+          <a herf="#none">넥슨ID 찾기</a>
+          <a herf="#none">비밀번호 찾기</a>
+          <a herf="#none"><i class="fas fa-shield-alt"></i>보안센터</a>
+        </div>
+        <div class="social__login">
+          <div class="social__login__item">
+            <img src="./images/facebook-removebg-preview.png" />
+            <h1>Facebook 로그인</h1>
+          </div>
+          <div class="social__login__item">
+            <img src="./images/google-removebg-preview.png" />
+            <h1>Google 로그인</h1>
+          </div>
+          <div class="social__login__item">
+            <img src="./images/naver-removebg-preview.png" />
+            <h1>Naver 로그인</h1>
+          </div>
+          <div class="social__login__item">
+            <img src="./images/apple-removebg-preview.png" />
+            <h1>Apple 로그인</h1>
+          </div>
+        </div>
+      </div>
+      <div id="test2">
+        <p>
+          <b>넥슨플레이>넥슨인증기>일회용로그인</b>에서 8자리 숫자를
+          입력해주세요.
+        </p>
+        <form>
+          <div>
+            <input placeholder="4자리" />
+            <input placeholder="4자리" />
+          </div>
+          <button>일회용 로그인</button>
+        </form>
+        <div class="login__barrier"></div>
+        <div class="login__info">
+          <div class="login__info__top">
+            <span>일회용 로그인 이용 가이드</span>
+            <span>넥슨플레이 안내 ></span>
+          </div>
+          <div class="login__info__bottom">
+            <h3>1. 넥슨플레이 앱을 실행시켜주세요.</h3>
+            <h3>
+              2. 메뉴 탭에서 [넥슨인증기] 메뉴를 클릭, [일회용 로그인] 버튼을
+              클릭해주세요.
+            </h3>
+            <h3>3. 8자리 번호를 입력하고 로그인 버튼을 클릭해주세요.</h3>
+          </div>
+        </div>
+        <h1>&copy NEXON Korea Corporation All Rights Reserved.</h1>
+      </div>
+      <div id="test3">
+        <p>
+          <b>넥슨플레이>QR 스캐너>QR 코드 촬영>바이오 인증</b> 진행 후 QR로그인 버튼을 클릭해주세요.
+        </p>
+        <div class="test3__QRContainer"></div>
+        <h2>유효시간 00:00</h2>
+        <form>
+          <button>QR 로그인</button>
+        </form>
+        <div class="login__barrier"></div>
+        <div class="login__info">
+          <div class="login__info__top">
+            <span>QR 로그인 이용 가이드</span>
+            <span>넥슨플레이 안내 ></span>
+          </div>
+          <div class="login__info__bottom">
+            <h3>1. 모바일기기로 QR코드를 촬영해주세요.<i>QR 스캐너 위치 보기</i></h3>
+            <h3>
+              2. 바이오인증의 인증 승인 페이지에서 지문인식을 해주세요. (또는 Face ID)
+            </h3>
+            <h3>3. 인증완료 후 [QR 로그인]을 클릭해주세요.</h3>
+          </div>
+        </div>
+        <h1>&copy NEXON Korea Corporation All Rights Reserved.</h1>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script/login.js"></script>
+    <script
+      src="https://kit.fontawesome.com/06601e9626.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

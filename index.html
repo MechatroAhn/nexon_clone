@@ -26,8 +26,8 @@
         <span>넥슨현대카드</span>
         <i class="fas fa-laptop"></i>
         <span>PC방</span>
-        <a href="#none">회원가입</a>
-        <a href="#none">로그인</a>
+        <a href="./join.html">회원가입</a>
+        <a href="./login.html">로그인</a>
       </div>
     </header>
     <div class="header__menu__detail">
@@ -131,14 +131,20 @@
     </div>
     <div class="banner">
       <div class="banner__btns">
-        <div>
+        <div class="banner__btnItem">
           <span class="banner__btns__gauge"></span>
+          <h2>넥슨</h2>
+          <h1>보안OTP</h1>
         </div>
-        <div>
+        <div class="banner__btnItem">
           <span class="banner__btns__gauge"></span>
+          <h2>카트라이더</h2>
+          <h1>신규 업데이트</h1>
         </div>
-        <div>
+        <div class="banner__btnItem">
           <span class="banner__btns__gauge"></span>
+          <h2>HIT</h2>
+          <h1>HIT 출시 기념 이벤트</h1>
         </div>
       </div>
     </div>
@@ -218,22 +224,37 @@
           </div>
         </div>
         <div class="main__center__R">
-          <div class="main__center__R__1">NEXON ID 로그인</div>
+          <div
+            class="main__center__R__1"
+            onclick="location.href='./login.html'"
+          >
+            NEXON ID 로그인
+          </div>
           <div class="main__center__R__2">
-            <div>일회용 로그인</div>
-            <div>QR 로그인</div>
+            <div onclick="location.href='./login.html'">일회용 로그인</div>
+            <div onclick="location.href='./login.html'">QR 로그인</div>
           </div>
           <div class="main__center__R__3">
-            <span>다른 계정 간편 로그인</span>
+            <span onclick="location.href='./login.html'"
+              >다른 계정 간편 로그인</span
+            >
             <img src="./images/google-removebg-preview.png" />
             <img src="./images/facebook-removebg-preview.png" />
             <img src="./images/naver-removebg-preview.png" />
             <img src="./images/apple-removebg-preview.png" />
           </div>
           <div class="main__center__R__4">
-            <a href="#none">넥슨 ID찾기</a>
-            <a href="#none">비밀번호 찾기</a>
-            <a href="#none">회원가입</a>
+            <a href="./login.html">넥슨 ID찾기</a>
+            <a href="./login.html">비밀번호 찾기</a>
+            <a href="./join.html">회원가입</a>
+          </div>
+          <div class="main__center__R__4__pop">
+            <div></div>
+            <span
+              >지금 넥슨 회원가입하시고 47개 넥슨게임을 무료로
+              플레이하세요</span
+            >
+            <i class="fas fa-times"></i>
           </div>
         </div>
       </div>
@@ -768,7 +789,6 @@
             <a href="#none">고객센터</a>
             <div class="bari"></div>
             <a href="#none">전체서비스</a>
-
           </div>
           <div class="footer__middle__a__item">
             <a href="#none">회사소개</a>
@@ -797,11 +817,19 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span>(주)넥슨코리아 대표이사 이정헌 경기도 성남시 분당구 판교로 256번길 7 전화 : 1588-7701 팩스 : 0502-258-8322</span>
-        <span><br>E-mail : contact-us@nexon.co.kr 사업자등록번호 : 220-87-17483호 통신판매업 신고번호 : 제2013-경기성남-1659호<a href="#none">사업자정보확인</a></span>
-        <span><br>&copy NEXON Korea Corporation All Rights Reserved.</span>
+        <span
+          >(주)넥슨코리아 대표이사 이정헌 경기도 성남시 분당구 판교로 256번길 7
+          전화 : 1588-7701 팩스 : 0502-258-8322</span
+        >
+        <span
+          ><br />E-mail : contact-us@nexon.co.kr 사업자등록번호 : 220-87-17483호
+          통신판매업 신고번호 : 제2013-경기성남-1659호<a href="#none"
+            >사업자정보확인</a
+          ></span
+        >
+        <span><br />&copy NEXON Korea Corporation All Rights Reserved.</span>
       </div>
-      <img src="./images/nCi_ci_black.gif">
+      <img src="./images/nCi_ci_black.gif" />
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

@@ -1,0 +1,276 @@
+@import "./reset.css";
+
+body {
+  font-family: "NanumGothic";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: black;
+  background-color: rgb(248, 249, 251);
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.login__container {
+  width: 450px;
+  height: 750px;
+}
+.login__top {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__top__imageContainer {
+  width: 100px;
+  height: 50px;
+  margin-right: 50px;
+}
+.login__top__options {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.login__top__options span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  font-size: 14px;
+  color: rgb(200, 200, 200);
+}
+.login__top__options span:nth-child(1) {
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+form {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+}
+
+form input {
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  transition: 0.3s;
+  border: 1px solid rgb(200, 200, 200);
+}
+form input::placeholder {
+  color: rgb(200, 200, 200);
+}
+form input:focus {
+  outline: none;
+  border: 1px solid rgb(3, 118, 251);
+}
+form button {
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 60px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+form button:hover {
+  border: 2px solid rgb(3, 118, 251);
+  background-color: rgb(3, 118, 251);
+}
+
+.checkbox__container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  font-size: 13px;
+  height: 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.checkbox__container h2 {
+  position: absolute;
+  top: 0;
+  left: 25px;
+}
+
+.login__more {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+}
+.login__more a {
+  margin-right: 10px;
+  font-size: 15px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.login__more a:nth-child(1):hover,
+.login__more a:nth-child(2):hover,
+.login__more a:nth-child(3):hover {
+  color: rgb(3, 118, 251);
+}
+.login__more a:nth-child(4) {
+  position: absolute;
+  right: -5px;
+  color: rgb(3, 118, 251);
+}
+.login__more a:nth-child(4):hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.social__login {
+  width: 100%;
+  height: 260px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social__login__item {
+  width: 100%;
+  height: 23%;
+  background-color: white;
+  border: 1px solid rgb(200, 200, 200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.social__login__item:hover {
+  background-color: rgb(231, 233, 247);
+}
+
+.social__login__item img {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+}
+
+#test2 p,
+#test3 p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+#test2 b,
+#test3 b {
+  font-weight: bold;
+}
+#test2 form div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#test2 form div input {
+  width: 47%;
+}
+#test2 form button {
+  margin-top: 15px;
+}
+
+.login__barrier {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(200, 200, 200);
+}
+.login__info {
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+}
+#test2,
+#test3 {
+  display: none;
+}
+
+#test2 h1,
+#test3 h1 {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  margin-left: 90px;
+  font-size: 12px;
+  color: rgb(200, 200, 200);
+}
+
+.login__info__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 15px;
+}
+.login__info__bottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: rgb(200, 200, 200);
+  margin-bottom: 15px;
+}
+.login__info__bottom h3 {
+  margin-bottom: 5px;
+}
+.test2__message {
+  width: 100%;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  display: none;
+}
+
+.test3__QRContainer {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 50px auto;
+}
+#test3 {
+  position: relative;
+  height: 100%;
+}
+#test3 h2 {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+}
+
+#test3 .login__barrier {
+  position: absolute;
+  bottom: 220px;
+}
+#test3 .login__info {
+  position: absolute;
+  bottom: 80px;
+}

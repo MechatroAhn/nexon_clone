@@ -122,6 +122,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .main__center__R__1 {
@@ -236,4 +237,46 @@ main {
 }
 .main__center__R__4 a:nth-child(3) {
   margin-left: 90px;
+}
+.main__center__R__4__pop {
+  width: 75%;
+  position: absolute;
+  height: 25px;
+  bottom: 30px;
+  color: white;
+  background-color: black;
+}
+.main__center__R__4__pop div {
+  width: 15px;
+  height: 15px;
+  transform: rotateZ(45deg);
+  position: absolute;
+  right: 20px;
+  top: -3px;
+  background-color: black;
+}
+.main__center__R__4__pop span {
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  width: 100%;
+  font-size: 11px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.main__center__R__4__pop i {
+  position: absolute;
+  top: 6px;
+  right: -3px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  width: 35px;
+  height: 15px;
+}
+
+.main__center__R__4__pop i:hover,
+.main__center__R__4__pop span:hover {
+  color: rgb(3, 118, 251);
 }

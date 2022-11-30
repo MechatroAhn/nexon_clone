@@ -269,31 +269,41 @@ header img {
   background-size: cover;
   background-position: center center;
   min-width: 850px;
-
 }
 .banner__btns {
-  width: 200px;
-  height: 10px;
+  width: 800px;
+  height: 70px;
   margin: 0 auto;
-  margin-top: 470px;
+  margin-top: 430px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.banner__btns div {
-  width: 32%;
+.banner__btnItem {
+  width: 33.3%;
   border-radius: 3px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  transition: 0.5s;
 }
-.banner__btns div:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+.banner__btnItem h2 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: rgb(206, 206, 206);
+  position: absolute;
 }
-.banner__btns div:nth-child(1) {
-  background-color: rgba(0, 0, 0, 0.2);
+.banner__btnItem h1 {
+  color: white;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-left: 10px;
+  font-weight: bold;
+  position: absolute;
 }
 
 .banner__btns__gauge {
@@ -302,7 +312,7 @@ header img {
   background-color: rgb(3, 118, 251);
   height: 100%;
   position: absolute;
-  left: -64px;
+  left: -267px;
 }
 
 .move {
@@ -311,7 +321,7 @@ header img {
 
 @keyframes bannerGauge {
   from {
-    left: -76px;
+    left: -267px;
   }
   to {
     left: 0px;
