@@ -36,8 +36,6 @@ a {
   margin-right: 50px;
 }
 
-
-
 form {
   width: 100%;
   display: flex;
@@ -74,6 +72,3 @@ form button:hover {
   border: 2px solid rgb(3, 118, 251);
   background-color: rgb(3, 118, 251);
 }
-
-
-
