@@ -49,6 +49,7 @@ a {
   border-bottom: 1px solid rgb(200, 200, 200);
   font-size: 14px;
   color: rgb(200, 200, 200);
+  cursor: pointer;
 }
 .login__top__options span:nth-child(1) {
   color: black;

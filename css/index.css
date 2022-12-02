@@ -299,6 +299,11 @@ header img {
 }
 .banner__btnItem h1 {
   color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  width: 230px;
   font-size: 20px;
   margin-top: 35px;
   margin-left: 10px;

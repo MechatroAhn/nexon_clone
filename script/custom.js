@@ -40,7 +40,7 @@ function bannerChange() {
   if (banner_now == 1) {
     $(".banner").css({
       backgroundImage:
-        "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbccp9uMUcWNRBxQrEdBZMM5iWLrq6Y2Gllw&usqp=CAU)",
+        "url(https://rs.nxfs.nexon.com/bannerusr/22/11/gTm824100552106.jpg)",
     });
     $(".banner__btns > div:nth-child(1)").css({
       backgroundColor: "rgba(185,185,185,0.2)",
@@ -64,7 +64,7 @@ function bannerChange() {
   } else if (banner_now == 2) {
     $(".banner").css({
       backgroundImage:
-        "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtaLA5c7YXSN_bVrwoBIaprr6KWqIRQfNZ-g&usqp=CAU)",
+        "url(https://rs.nxfs.nexon.com/bannerusr/22/11/iVlH30182924607.jpg)",
     });
     $(".banner__btns > div:nth-child(2)").css({
       backgroundColor: "rgba(185,185,185,0.2)",
@@ -88,7 +88,7 @@ function bannerChange() {
   } else if (banner_now == 3) {
     $(".banner").css({
       backgroundImage:
-        "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4iEfHoW0qOVxWoLH_AZ60x6rn88SNtuX3A&usqp=CAU)",
+        "url(https://rs.nxfs.nexon.com/bannerusr/22/11/YH1f29161345971.png)",
     });
     $(".banner__btns > div:nth-child(3)").css({
       backgroundColor: "rgba(185,185,185,0.2)",
